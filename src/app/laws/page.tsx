@@ -19,7 +19,7 @@ export default function Laws() {
         <section className="border-2 border-black flex justify-center items-center flex-col gap-8 p-2 sm:p-4 shadow-lg shadow-zinc-500 rounded">
           <div className="flex items-center justify-center gap-8 lg:gap-12 flex-wrap">
             <div
-              className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition"
+              className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300"
               data-aos="fade-right"
             >
               <span className="text-xl font-semibold leading-relaxed">
@@ -43,7 +43,7 @@ export default function Laws() {
               </p>
             </div>
             <div
-              className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition"
+              className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300"
               data-aos="fade-left"
             >
               <span className="text-xl font-semibold leading-relaxed">
@@ -70,7 +70,7 @@ export default function Laws() {
           </div>
 
           <div
-            className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition"
+            className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300"
             data-aos="fade-left"
           >
             <span className="text-xl font-semibold leading-relaxed">
@@ -96,7 +96,7 @@ export default function Laws() {
           </div>
 
           <div
-            className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition"
+            className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300"
             data-aos="zoom-in"
           >
             <span className="text-xl font-semibold leading-relaxed">
@@ -124,7 +124,7 @@ export default function Laws() {
             className="flex items-center justify-center xl:justify-between gap-8 lg:gap-12 w-full flex-wrap"
             data-aos="zoom-in"
           >
-            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition">
+            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300">
               <span className="text-xl font-semibold leading-relaxed">
                 Lei Joanna Maranhão (12.650/2015):
               </span>
@@ -146,7 +146,7 @@ export default function Laws() {
               </p>
             </div>
 
-            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition">
+            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300">
               <span className="text-xl font-semibold leading-relaxed">
                 Lei de Importunação Sexual (13.718/2018):
               </span>
@@ -173,7 +173,7 @@ export default function Laws() {
             className="flex items-center justify-center xl:justify-between gap-8 lg:gap-12 xl:gap-28 flex-wrap"
             data-aos="zoom-out"
           >
-            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition">
+            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300">
               <span className="text-xl font-semibold leading-relaxed">
                 Lei 13.836/2019:
               </span>
@@ -195,7 +195,7 @@ export default function Laws() {
               </p>
             </div>
 
-            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300 hover:scale-105 transition">
+            <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300">
               <span className="text-xl font-semibold leading-relaxed">
                 Lei 13.882/2019:
               </span>
