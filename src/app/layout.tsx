@@ -8,7 +8,14 @@ import { AOSProvider } from '@/components/AOSProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PI',
+  title: {
+    default: 'Empodera Icuí',
+    template: 'Empodera Icuí | %s',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   description:
     'Website do projeto Empodera Icuí, criado com fins de conscientizar as pessoas e principalmente ajudar as mulheres.',
 }
