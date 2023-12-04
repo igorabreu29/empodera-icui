@@ -22,7 +22,7 @@ export default function Home() {
       <h2 className="mt-8 font-semibold text-center text-xl md:text-3xl">
         Saiba mais sobre o assunto
       </h2>
-      <div className="mt-16 mb-24 flex items-center justify-center gap-10 flex-wrap md:gap-36">
+      <div className="mt-16 mb-24 flex items-center justify-center gap-10 flex-wrap md:gap-36 overflow-hidden">
         <article
           className={`p-2 rounded h-96 flex items-center justify-end flex-col gap-2 w-full max-w-[19rem] bg-center bg-cover bg-[url(../assets/types.jpeg)]`}
         >
