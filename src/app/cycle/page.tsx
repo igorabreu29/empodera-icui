@@ -7,7 +7,7 @@ import { Metadata } from 'next'
 import { AlertCircle, Flower2, Grab } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Empodera Icuí | Ciclo',
+  title: 'Ciclo',
   description: 'Página que contém o processo do ciclo da violência',
 }
 

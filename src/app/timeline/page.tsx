@@ -5,7 +5,7 @@ import { MoveRoot } from '@/components/move/MoveRoot'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Empodera Icuí | Linha do tempo',
+  title: 'Linha do tempo',
   description:
     'Página que possui o intuito de mostrar a linha do tempo das mulheres ao longo dos anos.',
 }

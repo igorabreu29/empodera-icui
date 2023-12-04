@@ -5,7 +5,7 @@ import { MoveRoot } from '@/components/move/MoveRoot'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Empodera Icuí | Leis',
+  title: 'Leis',
   description: 'Página que contém leis de direito das mulheres.',
 }
 

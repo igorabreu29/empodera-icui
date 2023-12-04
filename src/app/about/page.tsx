@@ -9,7 +9,7 @@ import TeacherMember from '../../assets/teacher-member.jpeg'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Empodera Icuí | Sobre',
+  title: 'Sobre',
   description:
     'Conta um breve resumo do projeto Empodera Icuí e mostra os membros criadores',
 }

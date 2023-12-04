@@ -7,7 +7,7 @@ import { MoveRoot } from '@/components/move/MoveRoot'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Empodera Icuí | Mitos x Verdades',
+  title: 'Mitos x Verdades',
   description:
     'Página que contém frases que normalmente são faladas pela sociedade',
 }

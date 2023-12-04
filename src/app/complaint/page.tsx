@@ -3,7 +3,7 @@ import { Title } from '@/components/Title'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Empodera Icuí | Denúncia',
+  title: 'Denúncia',
   description:
     'Página com o objetivo de mostrar as principais formas e locais de busca.',
 }

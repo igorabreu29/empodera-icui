@@ -5,7 +5,7 @@ import { MoveRoot } from '@/components/move/MoveRoot'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Empodera Icuí | Tipos de Violência',
+  title: 'Tipos de Violência',
   description:
     'Página que possui informação sobre todos os tipos de violência contra a mulher.',
 }
