@@ -21,8 +21,8 @@ export default function About() {
       <InformAboutPage text="Conheça um pouco sobre o projeto Empodera Icuí e veja os membros participantes da criação do website." />
 
       <section
-        className="flex flex-col mx-auto mt-10 items-center justify-center gap-4 w-full max-w-[40rem] leading-relaxed px-4"
-        data-aos="fade-down"
+        className="flex flex-col mx-auto mt-10 items-center justify-center gap-4 w-full max-w-[40rem] leading-relaxed px-4 overflow-hidden"
+        data-aos="zoom-in"
       >
         <h3 className="font-semibold text-xl md:text-2xl">
           Projeto Empodera Icuí:
@@ -45,7 +45,7 @@ export default function About() {
         </p>
       </section>
 
-      <section className="flex flex-col items-center justify-center gap-12 px-16 py-6 mt-8">
+      <section className="flex flex-col items-center justify-center gap-12 px-16 py-6 mt-8 overflow-hidden">
         <div
           className="bg-zinc-300 flex items-center justify-between flex-col gap-6 md:gap-2 md:flex-row px-4 md:px-8 py-4 rounded w-full max-w-[58rem]"
           data-aos="fade-right"

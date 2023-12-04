@@ -19,7 +19,7 @@ export default function Types() {
         identifica-lás."
       />
 
-      <section className="flex items-center justify-center px-2 sm:w-[29.5rem] text-center mx-auto my-10">
+      <section className="flex items-center justify-center px-2 sm:w-full sm:max-w-[29.5rem] text-center mx-auto my-10">
         <p className="font-medium text-base sm:text-lg" data-aos="fade-down">
           De acordo com a Lei Maria da Penha, existem cinco tipos de violência
           contra a mulher que trazem diversas consequências. Normalmente, não
@@ -28,7 +28,7 @@ export default function Types() {
         </p>
       </section>
 
-      <section className="bg-zinc-200 grid grid-cols-1 md:grid-cols-2 gap-20 py-20 px-2 sm:px-10 md:px-20 lg:px-52 relative">
+      <section className="bg-zinc-200 grid grid-cols-1 md:grid-cols-2 gap-20 py-20 px-2 sm:px-10 md:px-20 lg:px-52 relative overflow-hidden">
         <div
           className={`absolute top-2 right-1/2 translate-x-1/2 hidden md:block bg-black h-[38rem] w-[0.115rem]`}
         />

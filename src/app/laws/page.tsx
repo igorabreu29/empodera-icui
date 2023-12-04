@@ -15,7 +15,7 @@ export default function Laws() {
       <Title text="Leis" />
       <InformAboutPage text="Conheça um pouco sobre as leis de direito das mulheres." />
 
-      <div className="px-2 sm:px-32 py-8">
+      <div className="px-2 sm:px-32 py-8 overflow-hidden">
         <section className="border-2 border-black flex justify-center items-center flex-col gap-8 p-2 sm:p-4 shadow-lg shadow-zinc-500 rounded">
           <div className="flex items-center justify-center gap-8 lg:gap-12 flex-wrap">
             <div
@@ -76,7 +76,7 @@ export default function Laws() {
             <span className="text-xl font-semibold leading-relaxed">
               Lei do Feminicídio (13.104/2015):
             </span>
-            <p>
+            <p className="text-sm md:text-base">
               Prevê que, caso a mulher seja morta em decorrência da
               discriminação à sua condição de mulher ou em decorrência de
               violência doméstica e familiar, a pena do crime poderá chegar a 30
@@ -102,7 +102,7 @@ export default function Laws() {
             <span className="text-xl font-semibold leading-relaxed">
               Lei Carolina Dieckmann:
             </span>
-            <p>
+            <p className="text-sm md:text-base">
               Proíbe a invasão de aparelhos eletrônicos para obtenção,
               adulteração ou destruição de dados particulares sem a permissão do
               dono do dispositivo.

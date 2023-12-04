@@ -16,12 +16,12 @@ export default function Timeline() {
       <Title text="Linha do Tempo" />
       <InformAboutPage text="Conheça um pouco sobre as mudanças que ocorreram durante o passar dos anos." />
 
-      <section className="flex flex-col justify-center items-center md:grid md:grid-cols-1 md:items-start md:justify-start px-10 mt-28 gap-4 relative lg:px-48">
+      <section className="flex flex-col justify-center items-center md:grid md:grid-cols-1 md:items-start md:justify-start px-10 mt-28 gap-12 relative lg:px-48 overflow-hidden">
         <div
           className={`absolute top-2 right-1/2 translate-x-1/2 hidden md:block bg-black h-[52rem] w-[0.115rem]`}
         ></div>
         <div
-          className="flex items-center md:items-start justify-center flex-col w-full max-w-96 md:w-96 text-center gap-2"
+          className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center gap-2"
           data-aos="fade-right"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
@@ -32,7 +32,7 @@ export default function Timeline() {
           </p>
         </div>
         <div
-          className="flex items-center md:items-start justify-center flex-col w-full max-w-96 md:w-96 text-center md:ml-auto gap-2"
+          className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center md:ml-auto gap-2"
           data-aos="fade-left"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
@@ -45,7 +45,7 @@ export default function Timeline() {
           </p>
         </div>
         <div
-          className="flex items-end justify-center flex-col w-full max-w-96 md:w-96 text-center gap-2"
+          className="flex items-end justify-center flex-col w-full max-w-[24rem] text-center gap-2"
           data-aos="fade-right"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
@@ -57,7 +57,7 @@ export default function Timeline() {
           </p>
         </div>
         <div
-          className="flex items-center md:items-start justify-center flex-col w-full max-w-96 md:w-96 text-center md:ml-auto gap-2"
+          className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center md:ml-auto gap-2"
           data-aos="fade-left"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
@@ -68,7 +68,7 @@ export default function Timeline() {
           </p>
         </div>
         <div
-          className="flex items-center md:items-start justify-center flex-col w-full max-w-96 md:w-96 text-center gap-2"
+          className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center gap-2"
           data-aos="fade-right"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
@@ -79,7 +79,7 @@ export default function Timeline() {
           </p>
         </div>
         <div
-          className="flex items-center md:items-start justify-center flex-col w-full max-w-96 md:w-96 text-center md:ml-auto gap-2"
+          className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center md:ml-auto gap-2"
           data-aos="fade-left"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
@@ -90,7 +90,7 @@ export default function Timeline() {
           </p>
         </div>
         <div
-          className="flex items-center md:items-start justify-center flex-col w-full max-w-96 md:w-96 text-center gap-2"
+          className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center gap-2"
           data-aos="fade-right"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
@@ -101,7 +101,7 @@ export default function Timeline() {
           </p>
         </div>
         <div
-          className="flex items-center md:items-start justify-center flex-col w-full max-w-96 md:w-96 text-center md:ml-auto gap-2"
+          className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center md:ml-auto gap-2"
           data-aos="fade-left"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">

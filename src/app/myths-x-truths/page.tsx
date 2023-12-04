@@ -18,7 +18,7 @@ export default function MythsXTruths() {
       <Title text="Mitos x Verdades" />
       <InformAboutPage text="Entenda as coisas como ela realmente são, essa seção abordará alguns pontos falados por algumas pessoas." />
 
-      <section className="flex flex-col items-center justify-center gap-12 py-12 px-8">
+      <section className="flex flex-col items-center justify-center gap-12 py-12 px-8 overflow-hidden">
         <MTMappedContent />
       </section>
       <DivisorWidth />
