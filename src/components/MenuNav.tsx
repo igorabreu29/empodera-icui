@@ -19,54 +19,54 @@ export function MenuNav() {
         />
       </Link>
       {active && (
-        <div className="absolute z-50 top-0 right-0 bg-zinc-200 flex items-center justify-center py-14 p-20">
+        <div className="absolute z-50 top-0 right-0 bg-zinc-100 flex items-center justify-center py-14 px-16 rounded">
           <button
-            className="absolute top-4 right-8 bg-red-600 p-1 rounded text-white"
+            className="absolute top-4 right-8 bg-red-600 p-1 rounded text-white hover:scale-105 transition-transform"
             onClick={() => setActive(false)}
             aria-label="Button"
           >
-            <X size={20} />
+            <X size={16} />
           </button>
           <div className="flex items-center justify-center flex-col gap-4 font-semibold">
             <Link
               href={'/types'}
-              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all"
+              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
             >
               Tipos de Violência
             </Link>
             <Link
               href={'/cycle'}
-              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all"
+              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
             >
               Ciclo da Violência
             </Link>
             <Link
               href={'/laws'}
-              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all"
+              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
             >
               Leis
             </Link>
             <Link
               href={'/timeline'}
-              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all"
+              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
             >
               Linha do tempo
             </Link>
             <Link
               href={'/myths-x-truths'}
-              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all"
+              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
             >
               Mitos x Verdades
             </Link>
             <Link
               href={'/complaint'}
-              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all"
+              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
             >
               Denúncia
             </Link>
             <Link
               href={'/about'}
-              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all"
+              className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
             >
               Sobre
             </Link>

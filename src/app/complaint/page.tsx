@@ -16,7 +16,7 @@ export default function Complaint() {
 
       <section className="mt-8 py-4 px-4 md:px-12 flex items-center justify-center flex-col gap-12">
         <section className="text-center flex items-center justify-center flex-col gap-2 w-full max-w-[40rem]">
-          <h3 className="text-xl font-semibold text-center md:text-2xl">
+          <h3 className="text-xl font-bold text-center md:text-2xl">
             Central de Denúncia - 180
           </h3>
           <p className="text-justify">
@@ -28,7 +28,7 @@ export default function Complaint() {
         </section>
 
         <section className="flex items-center justify-center flex-col gap-8">
-          <h3 className="text-xl md:text-2xl font-semibold text-center">
+          <h3 className="text-xl md:text-2xl font-bold text-center">
             Caso precise de atendimento médico, busque:
           </h3>
 
@@ -60,12 +60,12 @@ export default function Complaint() {
         </section>
 
         <section className="flex flex-col items-center gap-4 justify-center">
-          <h3 className="font-bold text-lg md:text-2xl text-center">
+          <h3 className="font-bold text-xl md:text-2xl text-center">
             Em caso de denúncia ou acolhimento, busque:
           </h3>
 
           <div className="w-full max-w-[40rem] space-y-4 text-center">
-            <h4 className="font-semibold text-xl">
+            <h4 className="font-semibold text-lg">
               Delegacia de Defesa da Mulher de Ananindeua (DEAM)
             </h4>
             <p>
