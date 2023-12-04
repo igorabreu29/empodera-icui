@@ -4,7 +4,7 @@ import { DivisorWidth } from '@/components/DivisorWidth'
 import { Move } from '@/components/move'
 import { MoveRoot } from '@/components/move/MoveRoot'
 import { Metadata } from 'next'
-import { AlertCircle, Flower2, Grab } from 'lucide-react'
+import { AlertCircle, Flower2, Hand } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Ciclo',
@@ -13,14 +13,14 @@ export const metadata: Metadata = {
 
 export default function Cycle() {
   return (
-    <>
+    <div>
       <Title text="Ciclo da Violência" />
       <InformAboutPage
         text="Essa seção abordará todas as fases do ciclo da violência. 
         Arraste para baixo e entenda sobre."
       />
 
-      <section className="flex justify-center gap-4 flex-col px-8 md:px-20 py-4 mt-10">
+      <section className="flex justify-center gap-4 flex-col px-8 md:px-20 py-4 mt-10 overflow-hidden">
         <div
           className="flex items-center sm:justify-evenly flex-col sm:flex-row gap-4"
           data-aos="zoom-in"
@@ -50,7 +50,7 @@ export default function Cycle() {
           data-aos="zoom-out"
         >
           <div className="h-60 w-60 sm:h-96 sm:w-96 bg-radial-secondary flex items-center justify-center">
-            <Grab size={80} className="text-white" />
+            <Hand size={80} className="text-white" />
           </div>
           <div className="flex flex-col gap-2 w-[25rem]">
             <span className="text-sm">Fase 2</span>
@@ -85,7 +85,7 @@ export default function Cycle() {
             </p>
           </div>
           <div className="h-60 w-60 sm:h-96 sm:w-96 bg-radial-secondary flex items-center justify-center">
-            <Grab size={80} className="text-white" />
+            <Hand size={80} className="text-white" />
           </div>
         </div>
 
@@ -128,6 +128,6 @@ export default function Cycle() {
           text="Acesse a aba LEIS para ver todas as leis de direito."
         />
       </MoveRoot>
-    </>
+    </div>
   )
 }
