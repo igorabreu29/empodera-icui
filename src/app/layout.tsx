@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${inter.className} text-black bg-zinc-100 min-h-screen`}
+        className={`${inter.className} text-black bg-zinc-100 min-h-screen scrollbar`}
       >
         <AOSProvider>
           <Header />
