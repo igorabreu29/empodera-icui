@@ -9,9 +9,18 @@ import Image from 'next/image'
 export function MenuNav() {
   const [active, setActive] = useState(false)
 
+  const handleHiddenMenuNav = () => {
+    setTimeout(() => setActive(false), 100)
+  }
+
   return (
     <nav className="md:hidden flex items-center gap-4 bg-white px-12 py-2 justify-between rounded">
-      <Link href={'/'} className="text-xl font-bold" data-aos="fade-right">
+      <Link
+        href={'/'}
+        className="text-xl font-bold"
+        data-aos="fade-right"
+        onClick={handleHiddenMenuNav}
+      >
         <Image
           src={Logo}
           width={50}
@@ -31,42 +40,49 @@ export function MenuNav() {
             <Link
               href={'/types'}
               className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
+              onClick={handleHiddenMenuNav}
             >
               Tipos de Violência
             </Link>
             <Link
               href={'/cycle'}
               className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
+              onClick={handleHiddenMenuNav}
             >
               Ciclo da Violência
             </Link>
             <Link
               href={'/laws'}
               className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
+              onClick={handleHiddenMenuNav}
             >
               Leis
             </Link>
             <Link
               href={'/timeline'}
               className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
+              onClick={handleHiddenMenuNav}
             >
               Linha do tempo
             </Link>
             <Link
               href={'/myths-x-truths'}
               className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
+              onClick={handleHiddenMenuNav}
             >
               Mitos x Verdades
             </Link>
             <Link
               href={'/complaint'}
               className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
+              onClick={handleHiddenMenuNav}
             >
               Denúncia
             </Link>
             <Link
               href={'/about'}
               className="hover:bg-zinc-300 hover:scale-105 p-2 transition-all rounded w-full text-center"
+              onClick={handleHiddenMenuNav}
             >
               Sobre
             </Link>
