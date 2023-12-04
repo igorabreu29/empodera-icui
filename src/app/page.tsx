@@ -8,7 +8,7 @@ export default function Home() {
           className="text-center text-5xl md:text-6xl leading-normal"
           data-aos="fade-up"
         >
-          Empodera Icuí:{' '}
+          Empodera Icuí
         </h1>
         <p
           className="text-xl md:text-3xl font-medium md:w-[40rem] text-center"
