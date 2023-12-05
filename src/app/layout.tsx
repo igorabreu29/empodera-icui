@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   },
   description:
     'Website do projeto Empodera Icuí, criado com fins de conscientizar as pessoas e principalmente ajudar as mulheres.',
+  metadataBase: new URL('http://empodera-icui.vercel.app/logo.png'),
+  openGraph: {
+    title: 'Empodera Icuí',
+    description:
+      'Informações básicas e essenciais sobre a violência contra a mulher',
+    images: '/logo.png',
+  },
 }
 
 export default function RootLayout({
