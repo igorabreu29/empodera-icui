@@ -14,7 +14,7 @@ export default function Types() {
   return (
     <>
       <Title text="Tipos de Violência" />
-      <InformAboutPage text="Essa seção abordará todos os tipos de violência contra a mulher e alguns exemplos" />
+      <InformAboutPage text="Essa seção abordará os tipos de violência contra a mulher e alguns exemplos." />
 
       <section className="flex items-center justify-center px-2 sm:w-full sm:max-w-[29.5rem] text-center mx-auto my-10">
         <p className="font-medium text-base sm:text-lg" data-aos="fade-down">

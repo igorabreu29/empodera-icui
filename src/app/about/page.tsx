@@ -11,7 +11,7 @@ import Image from 'next/image'
 export const metadata: Metadata = {
   title: 'Sobre',
   description:
-    'Conta um breve resumo do projeto Empodera Icuí e mostra os membros criadores',
+    'Conta um breve resumo do projeto Empodera Icuí e mostra os membros criadores.',
 }
 
 export default function About() {

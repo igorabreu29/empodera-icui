@@ -19,7 +19,7 @@ export default function Complaint() {
           <h3 className="text-xl font-bold text-center md:text-2xl">
             Central de Denúncia - 180
           </h3>
-          <p className="text-center">
+          <p className="text-justify">
             Responsável por orientar e encaminhar a vítima para os serviços da
             rede de atendimento. A chamada de telefone é gratuita. O atendimento
             é realizado durante 24 horas e é válido para todo o território
@@ -37,7 +37,7 @@ export default function Complaint() {
               <h4 className="font-semibold text-lg md:text-xl text-center">
                 Unidade Básica de Saúde (UBS)
               </h4>
-              <p className="text-center">
+              <p className="text-justify">
                 A vítima deve procurar esse serviço caso apresente ferimentos
                 leves ou problemas de saúde mental, como depressão e ansiedade.
                 Os profissionais de saúde serão responsáveis por identificar a
@@ -68,7 +68,7 @@ export default function Complaint() {
             <h4 className="font-semibold text-lg">
               Delegacia de Defesa da Mulher de Ananindeua (DEAM)
             </h4>
-            <p>
+            <p className="text-justify">
               A vítima deve procurar esse serviço caso apresente ferimentos
               leves ou problemas de saúde mental, como depressão e ansiedade. Os
               profissionais de saúde serão responsáveis por identificar a
@@ -98,7 +98,7 @@ export default function Complaint() {
             <h4 className="font-semibold text-lg md:text-xl">
               Centro de Referência de Assistência Social (CRAS)
             </h4>
-            <p>
+            <p className="text-justify">
               Oferece benefícios e auxílios, faz a orientação e o encaminhamento
               para os outros serviços. Além de garantir proteção social básica,
               acolhimento e prevenção. Só em Ananindeua, há 10 unidades.
@@ -145,7 +145,7 @@ export default function Complaint() {
             <h4 className="font-semibold text-lg md:text-xl">
               Centro de Referência Especializado de Assistência Social (CREAS)
             </h4>
-            <p>
+            <p className="text-justify">
               Responsável por orientar, proteger e atender a vítima em casos de
               violência. Realiza o atendimento em casos de abusos sexuais contra
               crianças e adolescentes e solicita vaga no abrigo-sigiloso, se

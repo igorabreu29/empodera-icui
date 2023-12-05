@@ -17,7 +17,7 @@ export default function Laws() {
 
       <div className="px-2 sm:px-32 py-8 overflow-hidden">
         <section className="border-2 border-black flex justify-center items-center flex-col gap-8 p-2 sm:p-4 shadow-lg shadow-zinc-500 rounded">
-          <div className="flex items-center justify-center gap-8 lg:gap-12 flex-wrap">
+          <div className="flex items-center justify-center gap-8 flex-wrap">
             <div
               className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300"
               data-aos="fade-right"
@@ -121,7 +121,7 @@ export default function Laws() {
           </div>
 
           <div
-            className="flex items-center justify-center xl:justify-between gap-8 lg:gap-12 w-full flex-wrap"
+            className="flex items-center justify-center xl:justify-between gap-8 flex-col w-full xl:gap-28 xl:flex-row"
             data-aos="zoom-in"
           >
             <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300">

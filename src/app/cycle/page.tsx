@@ -8,7 +8,7 @@ import { AlertCircle, Flower2, Hand } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Ciclo',
-  description: 'Página que contém o processo do ciclo da violência',
+  description: 'Página que contém o processo do ciclo da violência.',
 }
 
 export default function Cycle() {
