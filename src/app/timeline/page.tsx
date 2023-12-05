@@ -18,14 +18,14 @@ export default function Timeline() {
 
       <section className="flex flex-col justify-center items-center md:grid md:grid-cols-1 md:items-start md:justify-start px-10 mt-28 gap-12 relative lg:px-48 overflow-hidden">
         <div
-          className={`absolute top-2 right-1/2 translate-x-1/2 hidden md:block bg-black h-[52rem] w-[0.115rem]`}
+          className={`absolute top-2 right-1/2 translate-x-1/2 hidden md:block bg-black h-[65rem] w-[0.115rem]`}
         ></div>
         <div
           className="flex items-center md:items-start justify-center flex-col w-full max-w-[24rem] text-center gap-2"
           data-aos="fade-right"
         >
           <h2 className="border-b-2 border-dashed border-b-black w-full font-semibold text-3xl">
-            Época do Brasil Império
+            Brasil Império
           </h2>
           <p className="font-medium w-full">
             As mulheres não possuíam direitos, nem eram consideradas cidadãs.

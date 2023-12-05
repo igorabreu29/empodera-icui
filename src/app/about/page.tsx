@@ -18,7 +18,7 @@ export default function About() {
   return (
     <div>
       <Title text="Sobre" />
-      <InformAboutPage text="Conheça um pouco sobre o projeto Empodera Icuí e veja os membros participantes da criação do website." />
+      <InformAboutPage text="Conheça um pouco sobre o projeto Empodera Icuí e veja os membros da criação do website." />
 
       <section
         className="flex flex-col mx-auto mt-10 items-center justify-center gap-4 w-full max-w-[40rem] leading-relaxed px-4 overflow-hidden"
@@ -136,9 +136,7 @@ export default function About() {
         >
           <div className="flex flex-col gap-2 text-center">
             <h3 className="text-lg font-semibold">Leika Cristiane</h3>
-            <p className="font-medium">
-              Professora de letras/Espanhol no IFPA.
-            </p>
+            <p className="font-medium">Professora do IFPA.</p>
             <a
               href="https://instagram.com/profacristiane.costa"
               className="text-sm"

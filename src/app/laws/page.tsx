@@ -13,7 +13,7 @@ export default function Laws() {
   return (
     <div>
       <Title text="Leis" />
-      <InformAboutPage text="Conheça um pouco sobre as leis de direito das mulheres." />
+      <InformAboutPage text="Conheça um pouco sobre as leis que protegem mulher." />
 
       <div className="px-2 sm:px-32 py-8 overflow-hidden">
         <section className="border-2 border-black flex justify-center items-center flex-col gap-8 p-2 sm:p-4 shadow-lg shadow-zinc-500 rounded">
@@ -170,7 +170,7 @@ export default function Laws() {
           </div>
 
           <div
-            className="flex items-center justify-center xl:justify-between gap-8 lg:gap-12 xl:gap-28 flex-wrap"
+            className="flex items-center justify-center xl:justify-between gap-8 flex-col xl:gap-28 xl:flex-row"
             data-aos="zoom-out"
           >
             <div className="bg-zinc-200 w-full max-w-[35rem] p-2 rounded space-y-2 md:h-full shadow-md shadow-zinc-300">

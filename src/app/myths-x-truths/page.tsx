@@ -16,7 +16,7 @@ export default function MythsXTruths() {
   return (
     <div>
       <Title text="Mitos x Verdades" />
-      <InformAboutPage text="Entenda as coisas como ela realmente são, essa seção abordará alguns pontos falados por algumas pessoas." />
+      <InformAboutPage text="Desmitifique algumas falas sobre violência contra a mulher." />
 
       <section className="flex flex-col items-center justify-center gap-12 py-12 px-8 overflow-hidden">
         <MTMappedContent />

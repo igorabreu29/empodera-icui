@@ -27,7 +27,7 @@ export default function Home() {
           className={`p-2 rounded h-96 flex items-center justify-end flex-col gap-2 w-full max-w-[19rem] bg-center bg-cover bg-[url(../assets/types.jpeg)]`}
         >
           <span className="w-60 text-center font-semibold text-lg text-white">
-            Conheça sobre os tipos de violência
+            Conheça os tipos de violência
           </span>
           <Link
             href={'/types'}
@@ -40,7 +40,7 @@ export default function Home() {
           className={`p-2 rounded h-96 flex items-center justify-end flex-col gap-2 w-full max-w-[19rem] bg-center bg-cover bg-[url(../assets/cycle.jpeg)]`}
         >
           <span className="w-60 text-center font-semibold text-lg text-white">
-            Conheça sobre o ciclo da violência
+            Conheça o ciclo da violência
           </span>
           <Link
             href={'/cycle'}
