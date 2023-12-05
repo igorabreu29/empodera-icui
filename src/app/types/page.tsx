@@ -35,7 +35,7 @@ export default function Types() {
           data-aos-delay="100"
         >
           <h3 className="font-medium text-3xl">Violência Física</h3>
-          <ul className="md:list-disc flex flex-col text-center items-center md:items-start text-sm md:text-base">
+          <ul className="md:list-disc flex flex-col text-start items-center md:items-start text-sm md:text-base">
             <li>Puxões de cabelo</li>
             <li>Apertar os braços</li>
             <li>Estrangulamento, mordidas e beliscões</li>
@@ -53,7 +53,7 @@ export default function Types() {
           data-aos-delay="200"
         >
           <h3 className="font-medium text-3xl">Violência Psicológica</h3>
-          <ul className="md:list-disc flex flex-col items-center text-center md:items-start text-sm md:text-base">
+          <ul className="md:list-disc flex flex-col items-center text-start md:items-start text-sm md:text-base">
             <li>Limitação do direito de ir e vir</li>
             <li>Vigilância constante</li>
             <li>Distorcer os fatos para que a mulher duvide de sua sanidade</li>
@@ -69,10 +69,10 @@ export default function Types() {
           data-aos-delay="100"
         >
           <h3 className="font-medium text-3xl">Violência Sexual</h3>
-          <ul className="md:list-disc flex flex-col items-center text-center md:items-start text-sm md:text-base">
+          <ul className="md:list-disc flex flex-col items-center text-start md:items-start text-sm md:text-base">
             <li>Impedir o uso de métodos contraceptivos</li>
             <li>Forçar matrimônio, gravidez, prostituição ou aborto</li>
-            <li>Estupro</li>
+            <li className="text-center">Estupro</li>
             <li>Obrigar a mulher a práticas sexuais que causam desconforto</li>
             <li>
               Limitar o exercício dos direitos sexuais e reprodutivos da mulher
@@ -86,7 +86,7 @@ export default function Types() {
           data-aos-delay="200"
         >
           <h3 className="font-medium text-3xl">Violência Moral</h3>
-          <ul className="md:list-disc flex flex-col text-center items-center md:items-start text-sm md:text-base">
+          <ul className="md:list-disc flex flex-col text-start items-center md:items-start text-sm md:text-base">
             <li>Expor a vida íntima</li>
             <li>Desvalorizar a vítima pelo modo que se veste</li>
             <li>Acusar a mulher de traição</li>
@@ -100,7 +100,7 @@ export default function Types() {
           data-aos="fade-down"
         >
           <h3 className="font-medium text-3xl">Violência Patrimonial</h3>
-          <ul className="md:list-disc flex flex-col text-center items-center md:items-start text-sm md:text-base">
+          <ul className="md:list-disc flex flex-col text-start items-center md:items-start text-sm md:text-base">
             <li>Destruir, vender ou furtar objetos pessoais da vítima</li>
             <li>Privar de bens, valores ou recursos econômicos</li>
             <li>Controlar o dinheiro</li>

@@ -30,7 +30,7 @@ export default function Cycle() {
             <h3 className="text-xl md:text-2xl text-center sm:text-start font-semibold">
               Aumento da Tensão
             </h3>
-            <p className="text-sm md:text-base text-center sm:text-start">
+            <p className="text-sm md:text-base text-justify sm:text-start">
               Ocorre quando o agressor se mostra irritado por coisas
               insignificantes tendo acesso de raiva, humilhando a vítima,
               fazendo ameaças e destruindo objetos. Então a vítima tenta
@@ -57,7 +57,7 @@ export default function Cycle() {
             <h3 className="text-xl md:text-2xl text-center sm:text-start font-semibold">
               Ato de Violência
             </h3>
-            <p className="text-sm md:text-base text-center sm:text-start">
+            <p className="text-sm md:text-base text-justify sm:text-start">
               Ocorre a falta de controle do agressor que chega ao limite e leva
               à violência propriamente dita. A mulher se sente paralisada e sem
               possibilidade de reagir. Nesse momento, ela pode tomar decisões
@@ -76,7 +76,7 @@ export default function Cycle() {
             <h3 className="text-xl md:text-2xl text-center sm:text-start font-semibold">
               Ato de Violência
             </h3>
-            <p className="text-sm md:text-base text-center sm:text-start">
+            <p className="text-sm md:text-base text-justify sm:text-start">
               Ocorre a falta de controle do agressor que chega ao limite e leva
               à violência propriamente dita. A mulher se sente paralisada e sem
               possibilidade de reagir. Nesse momento, ela pode tomar decisões
@@ -99,7 +99,7 @@ export default function Cycle() {
             <h3 className="text-xl md:text-2xl text-center sm:text-start font-semibold">
               Lua de Mel
             </h3>
-            <p className="text-sm md:text-base text-center sm:text-start">
+            <p className="text-sm md:text-base text-justify sm:text-start">
               Nela, o agressor se diz arrependido e se torna amável para
               conseguir a reconciliação. Em seguida, há um período relativamente
               calmo em que a mulher se sente feliz por constatar a mudança de
@@ -125,7 +125,7 @@ export default function Cycle() {
         <Move
           title="Entenda sobre as leis de direito!"
           url="/laws"
-          text="Acesse a aba LEIS para ver todas as leis de direito."
+          text="Acesse a aba LEIS para ver as principais leis que protegem a mulher."
         />
       </MoveRoot>
     </div>
